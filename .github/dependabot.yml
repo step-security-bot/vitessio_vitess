@@ -1,0 +1,116 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/logrotate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/logtail
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/mysqlctl
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/mysqlctld
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtadmin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtbackup
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtctl
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtctlclient
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtctld
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtctldclient
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtexplain
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtgate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vtorc
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/binaries/vttablet
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/lite
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/mini
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/compose/external_db/mysql
+    schedule:
+      interval: daily
+
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /go/mysql/collations/tools/colldump
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /web/vtadmin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /java
+    schedule:
+      interval: daily
